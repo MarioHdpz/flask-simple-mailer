@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "flask-mail-sender"
+version = "0.1.0"
+description = "Simple flask app to send mails with Amazon SES"
+authors = ["Mario <mariohdpz@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^1.1.2"
+boto3 = "^1.16.7"
+uWSGI = "^2.0.19"
+
+[tool.poetry.dev-dependencies]
+python-dotenv = "^0.15.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
