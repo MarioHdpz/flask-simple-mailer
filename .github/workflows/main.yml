@@ -1,4 +1,4 @@
-name: Create, push Docker image and update server
+name: Create and push Docker image 
 
 on:
   push:
@@ -11,8 +11,6 @@ env:
 jobs:
 
   packaging:
-    needs: test
-
     runs-on: ubuntu-latest
 
     steps:
